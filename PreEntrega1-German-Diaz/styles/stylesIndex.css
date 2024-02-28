@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    background-image: url('../assets/images/fondo.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw; 
+    height: 100vh; 
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: -80px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.boton-enlace {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FFA500;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.boton-enlace:hover {
+    background-color: #FFD700;
+    border-color: #FFD700;
+}
+
+.container {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+}
+
+.header-container {
+    background-image: url('nada por ahora');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h3.text-black-60 {
+    font-size: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -5%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+h2.text-orange-50 {
+    font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFA500;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -400px; 
+    margin-bottom: 50px;
+    height: 100vh;
+    
+}
+
+.text-container {
+    margin-top: 50px; 
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+
+    <link rel="stylesheet" href="styles/stylesForm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-container">
+            <a href="productos.html" class="boton-enlace">PRODUCTOS</a>
+            <a href="about.html" class="boton-enlace">QUIENES SOMOS</a>
+            <a href="registro.html" class="boton-enlace">REGISTRO</a>
+            <a href="contacto.html" class="boton-enlace">CONTACTO</a>
+            <a href="carrito.html" class="boton-enlace">CARRITO</a>
+        </nav>        
+    </header>
+
+    <div class="container">
+        
+        <form action="./procesar.php" method="post" enctype="application/x-www-form-urlencoded">
+
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name">
+
+            <label for="lastname">Apellido</label>
+            <input type="text" id="lastname" name="lastname">
+
+            <label for="phone">Teléfono</label>
+            <input type="text" id="phone" name="phone">
+
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email">
+
+            <label for="message">Ingrese su consulta</label>
+            <textarea id="message" name="message" cols="30" rows="5"></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+        
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/people/Plannet3D/100075860816853/" target="_blank" class="social-button"><img src="./assets/images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/plannet3d" target="_blank" class="social-button"><img src="./assets/images/instagram.png" alt="Instagram"></a>
+            <a href="" target="_blank" class="social-button"><img src="./assets/images/Whatsapp.png" alt="Whatsapp"></a>
+            
+        </div>
+    </div>
+
+    <div>
+        <h3 class="text-black-60">FORMULARIO</h3>
+        <h2 class="text-orange-50">Llena el formulario y nos pondremos en contacto</h2>
+        
+    </div>
+
+</body>
+
+</html>
